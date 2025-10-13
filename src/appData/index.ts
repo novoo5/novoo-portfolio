@@ -1,15 +1,4 @@
-// Data for portfolio
-import {
-  ExpressjsIcon,
-  JavaScriptIcon,
-  NestjsIcon,
-  NextjsIcon,
-  NodejsIcon,
-  ReactIcon,
-  SocketIcon,
-  TailwindCSS,
-  TypescriptIcon,
-} from '../utils/icons'
+
 
 // NOTE: Projects are loaded from content/projects/*.json files
 export const projects = []

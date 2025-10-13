@@ -1,9 +1,9 @@
 {
   "priority": 2,
-  "title": "Codevertiser",
-  "shortDescription": "A programming related article site to share my learnings",
-  "cover": "https://res.cloudinary.com/dyvkdwzcj/image/upload/v1656970810/Codevertiser_xlxdje.png",
-  "livePreview": "https://example.com/beta",
-  "visitors": "8K Visitors",
-  "earned": "$400 Earned"
+  "title": "AI-Powered Breast Cancer Detector",
+  "shortDescription": "AI-based app predicting breast cancer from mammogram images using MIAS dataset and fine-tuned ResNet18 via FastAI. Provides real-time cancer vs. normal predictions through simple web interface with deep learning and computer vision techniques.",
+  "cover": "https://images.unsplash.com/photo-1579154204601-01588f351e67?w=800&auto=format&fit=crop",
+  "livePreview": "https://huggingface.co/spaces/Novoo1/Breast_Cancer_Detector",
+  "type": "Medical AI 🏥",
+  "status": "Live on HuggingFace"
 }

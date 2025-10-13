@@ -1,12 +1,10 @@
 {
   "priority": 4,
-  "title": "Ejucationzz",
-  "shortDescription": "Ejucationzz is a directory site I created for myself using Next.js. On Ejucationzz, you can find free and paid online and offline courses available in Pakistan. 14 academies and 12 main categories, each with subcategories, have been listed.",
-  "cover": "https://res.cloudinary.com/dyvkdwzcj/image/upload/v1598035107/pomodoro-clock_ctp2af.png",
-  "type": "New 🔥",
-  "livePreview": "https://example.com/Ejucationzz",
-  "siteAge": "4 months old",
-  "visitors": "100 Visitors",
-  "githubLink": "",
-  "earned": ""
+  "title": "AI-Based Drug Recommender System",
+  "shortDescription": "Web-based ML application recommending top 3 suitable drugs based on patient data (age, gender, BP, cholesterol, Na/K ratio). Built with Python, Scikit-learn, CatBoost, Streamlit. Optimized with SMOTE & GridSearchCV. Supports file uploads and manual inputs.",
+  "cover": "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=800&auto=format&fit=crop",
+  "livePreview": "https://huggingface.co/spaces/Novoo1/Drug-Reccomender",
+  "kaggleLink": "https://kaggle.com/novoobasak/code",
+  "type": "Healthcare ML 💊",
+  "earned": "User-Friendly Interface"
 }

@@ -1,0 +1,12 @@
+{
+  "priority": 5,
+  "title": "Breast Cancer Prediction: Wisconsin Dataset",
+  "shortDescription": "Kaggle notebook with predictive model using Breast Cancer Wisconsin dataset. Distinguishes malignant/benign tumors with rigorous data cleaning, feature standardization, and statistical selection. Random Forest achieved 96.49% test accuracy, 99.30% overall accuracy with GridSearchCV tuning.",
+  "cover": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&auto=format&fit=crop",
+  "livePreview": "https://kaggle.com/novoobasak",
+  "githubLink": "",
+  "kaggleLink": "https://kaggle.com/novoobasak/code",
+  "type": "Kaggle Research 📊",
+  "githubStars": "96.49% Accuracy",
+  "numberOfSales": "Kaggle Notebook"
+}

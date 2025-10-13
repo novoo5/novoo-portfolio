@@ -1,11 +1,12 @@
 {
   "priority": 3,
-  "title": "Project Epsilon",
-  "shortDescription": "A collection of engaging coding challenges designed to help developers improve their ReactJS skills by writing functional business logic. Your task is to make it functional by writing business logic, to improve your frontend skills",
-  "cover": "https://res.cloudinary.com/dyvkdwzcj/image/upload/v1656971294/waitlist-template_qr4l9k.png",
-  "type": "Free 🔥",
-  "livePreview": "https://example.com/epsilon",
-  "githubLink": "https://github.com/example/ReactJS-Coding-Challenges",
-  "githubStars": "40 Stars",
-  "numberOfSales": "138 Sales"
+  "title": "Kaggle Competitions in Machine Learning",
+  "shortDescription": "Competitions Contributor with consistent top-tier performance. Top 7.5% Titanic Survival (1,093/15,260), Top 15% House Prices (582/3,882), Top 20% Housing Prices (1,382/7,007). Spaceship Titanic (843/1,825). Active for 4+ months with advanced ensemble methods and feature engineering expertise.",
+  "cover": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop",
+  "livePreview": "https://kaggle.com/novoobasak",
+  "githubLink": "",
+  "kaggleLink": "https://kaggle.com/novoobasak/code",
+  "type": "Competitions 🏆",
+  "githubStars": "Top 7.5% Titanic",
+  "numberOfSales": "Competitions Contributor"
 }

@@ -8,19 +8,19 @@ import Logo from './Logo'
 
 const navItems = [
   {
-    label: '_home',
+    label: 'Home',
     href: '/',
   },
   {
-    label: '_projects',
+    label: 'Projects',
     href: '/#projects',
   },
   {
-    label: '_services',
+    label: 'Services',
     href: '/#services',
   },
   {
-    label: '_contact-me',
+    label: 'Contact',
     href: '/#contact',
   },
 ]
@@ -37,12 +37,12 @@ const Navbar = () => {
     <nav className="bg-primary border-border h-16 overflow-hidden border-b">
       <div className="mx-auto flex h-full w-dvw max-w-[1200px] items-center justify-between px-4 py-1">
         {isVisible ? (
-          <div className="text-primary-content md:hidden">_menu</div>
+          <div className="text-primary-content font-semibold md:hidden">Menu</div>
         ) : (
           <Link href="/">
             <div className="animate-fade-up text-primary-content relative flex items-center gap-3 transition-all duration-300 md:static">
               <Logo />
-              <span className="text-primary-content">john_doe</span>
+              <span className="text-primary-content font-bold text-lg tracking-wide">NOVOO</span>
             </div>
           </Link>
         )}

@@ -1,17 +1,19 @@
 export interface Project {
-  title: string
-  shortDescription: string
-  priority: number
-  cover: string
-  livePreview?: string
-  githubLink?: string
-  visitors?: string
-  earned?: string
-  githubStars?: string
-  ratings?: string
-  numberOfSales?: string
-  type: string
-  siteAge?: string
+  priority: number;
+  title: string;
+  shortDescription: string;
+  cover: string;
+  livePreview?: string;
+  githubLink?: string;
+  kaggleLink?: string;  // Added Kaggle support
+  type?: string;
+  siteAge?: string;
+  visitors?: string;
+  earned?: string;
+  ratings?: string;
+  githubStars?: string;
+  numberOfSales?: string;
+  status?: string;
 }
 
 export interface Heading {

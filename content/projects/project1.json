@@ -1,9 +1,11 @@
 {
   "priority": 1,
-  "title": "Color Contrast Collection",
-  "shortDescription": "Curated Background with Text colors contrast, help you to pick best contrast for your websites",
-  "cover": "https://res.cloudinary.com/dyvkdwzcj/image/upload/v1645090814/color-contrast_n598kw.png",
-  "livePreview": "https://example.com/alpha",
-  "type": "Client Work 🙍‍♂️",
-  "siteAge": "1 month old"
+  "title": "CardioQA - AI-Powered Cardiac Diagnostic Assistant",
+  "shortDescription": "Production-ready medical AI system using RAG to provide evidence-based cardiac health information. Complete full-stack application with 364 curated cardiac Q&As from MedQuAD dataset. Features ChromaDB vector database, Google Gemini 2.0 Flash, emergency detection, and professional medical disclaimers.",
+  "cover": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&auto=format&fit=crop",
+  "livePreview": "https://cardioqa-frontend.vercel.app",
+  "githubLink": "https://github.com/novoo5/cardioqa-ai-system",
+  "type": "Live Production 🚀",
+  "visitors": "2-3s Response Time",
+  "earned": "70-100 Safety Score"
 }

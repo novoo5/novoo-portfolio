@@ -30,7 +30,10 @@ const action = async (_: { success: boolean; message: string } | null, formData:
         message: 'Please provide a message.',
       }
 
-    const res = await fetch(process.env.CONTACT_FORM_ACTION_URL!, {
+    // Add Web3Forms access key to formData
+    formData.append('access_key', process.env.WEB3FORMS_ACCESS_KEY!)
+
+    const res = await fetch('https://api.web3forms.com/submit', {
       method: 'POST',
       body: formData,
       headers: {
@@ -39,7 +42,7 @@ const action = async (_: { success: boolean; message: string } | null, formData:
     })
 
     if (res.ok) {
-      return { success: true, message: 'Thanks for your submission!' }
+      return { success: true, message: 'Thanks for your submission! I\'ll get back to you soon.' }
     } else {
       const data = await res.json()
       console.error(data?.error)

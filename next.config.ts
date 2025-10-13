@@ -3,12 +3,15 @@ import type { NextConfig } from 'next'
 const nextConfig: NextConfig = {
   pageExtensions: ['js', 'jsx', 'ts', 'tsx'],
   
-  // Disable strict mode during build to prevent undefined URL errors
   eslint: {
     ignoreDuringBuilds: true,
   },
-  typescript: {
-    ignoreBuildErrors: false,
+  
+  // Force Node.js runtime instead of Edge
+  experimental: {
+    serverActions: {
+      bodySizeLimit: '2mb',
+    },
   },
 
   images: {

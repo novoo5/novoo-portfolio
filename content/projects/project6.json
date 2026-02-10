@@ -1,0 +1,10 @@
+{
+    "priority": 1,
+    "title": "Zyntac AI – AI-Powered Active Recall Platform",
+    "shortDescription": "Full-stack adaptive learning platform that transforms PDFs, PowerPoint slides, and scanned documents into interactive quizzes using Groq Llama 3.3. Features intelligent chunking, AI-graded subjective answers with personalized feedback, weakness detection analytics, and gamified UI with 3D animations. Deployed on Vercel + Render.",
+    "cover": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&auto=format&fit=crop",
+    "livePreview": "https://study-quiz-app-woad.vercel.app/",
+    "type": "Full-Stack AI Platform 🚀",
+    "githubStars": "OCR + Multi-Format",
+    "numberOfSales": "Production Deployed"
+}

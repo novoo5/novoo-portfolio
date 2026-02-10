@@ -2,11 +2,12 @@ import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
   pageExtensions: ['js', 'jsx', 'ts', 'tsx'],
-  
+
+  // @ts-ignore
   eslint: {
     ignoreDuringBuilds: true,
   },
-  
+
   // Force Node.js runtime instead of Edge
   experimental: {
     serverActions: {

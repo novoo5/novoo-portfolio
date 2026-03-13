@@ -1,4 +1,5 @@
 'use client'
+
 import useRoleSwitcher from '@/hooks/useRoleSwitcher'
 import useRotatingAnimation from '@/hooks/useRotatingAnimation'
 import Image from 'next/image'
@@ -7,33 +8,51 @@ import Ellipse from './Ellipse'
 
 const Hero = () => {
   const ellipseRef = useRotatingAnimation()
-  const role = useRoleSwitcher({ roles: ['FULL-STACK AI DEVELOPER','ML ENGINEER','MEDICAL AI DEVELOPER', 'ML RESEARCHER', 'BIOTECH STUDENT'] })
+
+  const role = useRoleSwitcher({
+    roles: [
+      'FULL-STACK AI DEVELOPER',
+      'EDTECH FOUNDER',
+      'HEALTHCARE AI BUILDER',
+      'ML RESEARCHER',
+      'BIOTECH STUDENT'
+    ]
+  })
 
   return (
     <section className="bg-primary bg-small-glow bg-small-glow-position md:bg-large-glow-position lg:bg-large-glow min-h-[calc(dvh-4rem)] bg-no-repeat">
       <div className="mx-auto grid max-w-[1200px] grid-cols-1 items-center gap-4 px-4 pt-12 pb-10 md:grid-cols-2 lg:p-4">
+
         <div className="flex min-h-48 flex-col justify-between lg:min-h-56 lg:max-w-[33.75rem]">
           <h1>
-            <span className="text-neutral mb-2 block text-3xl font-bold">Hi - I'm Novonil Basak</span>
-            <span className="text-accent block text-[1.75rem] font-bold">{role}</span>
+            <span className="text-neutral mb-2 block text-3xl font-bold">
+              Hi - I'm Novonil Basak
+            </span>
+            <span className="text-accent block text-[1.75rem] font-bold">
+              {role}
+            </span>
           </h1>
 
           <h2 className="text-neutral mt-3">
-            Building AI-powered healthcare solutions combining biotechnology domain expertise with advanced machine learning
+            Building production AI at the intersection of healthcare and EdTech — combining biotechnology domain expertise with full-stack development.
           </h2>
 
           <div className="mt-6 flex flex-wrap gap-6">
             <a
               href="mailto:novoobasak@gmail.com"
               aria-label="Connect with me"
-              className="bg-accent min-w-32 cursor-pointer rounded-lg px-[14px] py-[10px] text-center text-sm font-medium text-[#00071E]">
+              className="bg-accent min-w-32 cursor-pointer rounded-lg px-[14px] py-[10px] text-center text-sm font-medium text-[#00071E]"
+            >
               Contact Me
             </a>
+
             <a
-              href="https://www.linkedin.com/in/novonil-basakk-285819281/"
+              href="https://www.linkedin.com/in/novoobasak/"
               target="_blank"
+              rel="noopener noreferrer"
               aria-label="View LinkedIn Profile"
-              className="text-neutral bg-secondary cursor-pointer rounded-lg px-[14px] py-[10px] text-sm">
+              className="text-neutral bg-secondary cursor-pointer rounded-lg px-[14px] py-[10px] text-sm"
+            >
               LinkedIn Profile
             </a>
           </div>
@@ -46,15 +65,17 @@ const Hero = () => {
               fill={true}
               priority={true}
               sizes="(min-width: 1024px) 25.75rem, (min-width: 768px) 20rem, (min-width: 640px) 15rem, 14rem"
-              alt="Novonil Basak - Medical AI Developer"
+              alt="Novonil Basak - AI Developer & Biotech Student"
               className="object-contain p-7"
             />
+
             <Ellipse
               ref={ellipseRef}
               className="absolute top-0 left-0 size-56 transition-transform duration-500 ease-out sm:size-60 md:size-[20rem] lg:size-[25.75rem]"
             />
           </div>
         </div>
+
       </div>
     </section>
   )

@@ -28,6 +28,7 @@ const Hero = () => {
             <span className="text-neutral mb-2 block text-3xl font-bold">
               Hi - I'm Novonil Basak
             </span>
+
             <span className="text-accent block text-[1.75rem] font-bold">
               {role}
             </span>
@@ -61,7 +62,8 @@ const Hero = () => {
         </div>
 
         <div className="flex min-h-[18.75rem] items-center justify-center lg:min-h-[35rem]">
-          <div className="text-accent relative size-56 sm:size-60 md:size-[20rem] lg:size-[25.75rem]">
+
+          <div className="text-accent relative size-56 sm:size-60 md:size-[20rem] lg:size-[25.75rem] flex items-center justify-center">
 
             <Image
               src={HeroImage}
@@ -69,7 +71,7 @@ const Hero = () => {
               priority
               sizes="(min-width: 1024px) 25.75rem, (min-width: 768px) 20rem, (min-width: 640px) 15rem, 14rem"
               alt="Novonil Basak - AI Developer & Biotech Student"
-              className="object-contain object-top p-14"
+              className="object-contain object-top -translate-y-6 scale-95"
             />
 
             <Ellipse
@@ -78,6 +80,7 @@ const Hero = () => {
             />
 
           </div>
+
         </div>
 
       </div>

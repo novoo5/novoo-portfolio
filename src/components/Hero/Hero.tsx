@@ -38,6 +38,7 @@ const Hero = () => {
           </h2>
 
           <div className="mt-6 flex flex-wrap gap-6">
+
             <a
               href="mailto:novoobasak@gmail.com"
               aria-label="Connect with me"
@@ -55,24 +56,27 @@ const Hero = () => {
             >
               LinkedIn Profile
             </a>
+
           </div>
         </div>
 
         <div className="flex min-h-[18.75rem] items-center justify-center lg:min-h-[35rem]">
           <div className="text-accent relative size-56 sm:size-60 md:size-[20rem] lg:size-[25.75rem]">
+
             <Image
               src={HeroImage}
-              fill={true}
-              priority={true}
+              fill
+              priority
               sizes="(min-width: 1024px) 25.75rem, (min-width: 768px) 20rem, (min-width: 640px) 15rem, 14rem"
               alt="Novonil Basak - AI Developer & Biotech Student"
-              className="object-contain p-7"
+              className="object-contain object-top p-14"
             />
 
             <Ellipse
               ref={ellipseRef}
               className="absolute top-0 left-0 size-56 transition-transform duration-500 ease-out sm:size-60 md:size-[20rem] lg:size-[25.75rem]"
             />
+
           </div>
         </div>
 
